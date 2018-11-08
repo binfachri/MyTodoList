@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/mn_home" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_list"
+            android:title="@string/mn_todo" />
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_sync"
+            android:title="@string/mn_progres" />
+        <item
+            android:id="@+id/nav_done"
+            android:icon="@drawable/ic_check"
+            android:title="@string/mn_done" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/mn_feedback" />
+        </menu>
+    </item>
+
+</menu>
